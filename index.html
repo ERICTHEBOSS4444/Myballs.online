@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html lang="en-us">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <title>Unity WebGL Player | Slope</title>
-    <link rel="shortcut icon" href="TemplateData/favicon.ico">
-    <link rel="stylesheet" href="TemplateData/style.css">
-    <script src="TemplateData/UnityProgress.js"></script>  
-    <script src="Build/UnityLoader.js"></script>
-    <script>
-      var gameInstance = UnityLoader.instantiate("gameContainer", "Build/web2.json", {onProgress: UnityProgress});
-    </script>
+    <style>
+      body {
+        background-color: black;
+      }
+      p {
+       color: white;
+       text-align: center;
+       height: 30%;
+       width: 50%;
+      }
+      
+      p.low {
+       color: white;
+       text-align: center;
+       height:30%;
+       width:50%;
+      }
+      img {
+        margin: 50%, 50%;
+      }
+    </style>
   </head>
   <body>
-    <div class="webgl-content">
-      <div id="gameContainer" style="width: 640px; height: 360px"></div>
-      <div class="footer">
-        <div class="webgl-logo"></div>
-        <div class="fullscreen" onclick="gameInstance.SetFullscreen(1)"></div>
-        <div class="title">Slope</div>
-      </div>
-    </div>
+    <p>Uploading Your Balls</p>
+    
+    <img src:/upload-file-feature-contact-form.gif>
+    
+    <p class="low">Do Not Close This Tab Or Your Balls Will Be deleted</p>
   </body>
 </html>
